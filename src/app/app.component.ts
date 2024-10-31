@@ -5,11 +5,12 @@ import { HeroComponent } from './hero/hero.component';
 import { FeaturesComponent } from './features/features.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent, HeroComponent, FeaturesComponent, ServicesComponent, FooterComponent],
+  imports: [RouterOutlet,NavbarComponent, HeroComponent, FeaturesComponent, ServicesComponent, FooterComponent, SubscribeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
